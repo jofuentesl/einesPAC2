@@ -1,0 +1,43 @@
+{
+  "name": "einespac1",
+  "version": "1.0.0",
+  "description": "PAC1 Eines HTML i Css",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel:dev": "parcel index.html",
+    "parcel:build": "parcel build index.html",
+    "clean": "rimraf dist .cache .cache-loader"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jofuentesl/einesPAC1.git"
+  },
+  "keywords": [
+    "PAC1",
+    "UOC",
+    "Eines",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Jordi Fuentes Leiva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jofuentesl/einesPAC1/issues"
+  },
+  "homepage": "https://github.com/jofuentesl/einesPAC1#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "autoprefixer": "^9.6.5",
+    "jquery": "^3.4.1",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
+    "popper.js": "^1.16.0",
+    "rimraf": "^3.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
