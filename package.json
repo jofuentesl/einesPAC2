@@ -7,7 +7,7 @@
     "dev": "npm-run-all clean parcel:dev",
     "build": "npm-run-all clean parcel:build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "parcel:dev": "parcel index.html",
+    "parcel:dev": "parcel index.html -p 4200",
     "parcel:build": "parcel build index.html",
     "clean": "rimraf dist .cache .cache-loader"
   },
