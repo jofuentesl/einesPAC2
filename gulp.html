@@ -30,10 +30,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto mainmenu">
-              <li class="nav-item active">
-                <a class="nav-link current" href="/index.html">Inici</a>
-              </li>
               <li class="nav-item">
+                <a class="nav-link" href="/index.html">Inici</a>
+              </li>
+              <li class="nav-item active">
                 <a class="nav-link" href="/task_runners.html">Runner tasks</a>
               </li>
               <li class="nav-item">
@@ -51,7 +51,8 @@
           </ol>
       </nav>
       <main role="main">
-        <div class="container">
+          <section id="wrap">    
+              <div id="main" class="container clear-top">
           <div class="row">
               <div class="col">
                 <h1 class="display-4">Task runner GULP</h1>
@@ -94,7 +95,7 @@
                 </figure>
                 <p>Amb aquesta ordre creem l'arxiu package-lock.json on indiquem les dependències necessàries i s'instal·la la carpeta node_modules.</p>
                 <figure class="figure">
-                    <img src="/assets/img/instalacion_gulp.png" class="lazyload figure-img img-fluid rounded" alt="Imatge de la instal·lació de Gulp">
+                    <img src="/assets/img/instalacion_gulp.png" data-src="/assets/img/instalacion_gulp.png" class="lazyload figure-img img-fluid rounded" alt="Imatge de la instal·lació de Gulp">
                     <figcaption class="figure-caption text-right">Instal·lació de Gulp de forma local</figcaption>
                 </figure>
                 <p>Per la instal·lació de cada mòdul i incloure'ls en les dependències de l'arxiu package-lock.json, executarem la següent instrucció</p>
@@ -107,27 +108,19 @@
                   </figure>
                   <p>El següent pas, consisteix en la creació de l'arxiu gulpfile.js on configurem com volem utilitzar el mòduls instal·lats prèviament</p>  
                   <figure class="figure">
-                      <img src="/assets/img/ejecucion_gulp.png" class="lazyload figure-img img-fluid rounded" alt="Execució de Gulpfile.js">
+                      <img src="/assets/img/ejecucion_gulp.png"  data-src="/assets/img/ejecucion_gulp.png" class="lazyload figure-img img-fluid rounded" alt="Execució de Gulpfile.js">
                       <figcaption class="figure-caption text-right">Execució de l'arxiu gilpfile.js</figcaption>
                   </figure>
                   <p>Últim pas consiteix en executar la instrucció Gulp dins del terminal de l'equip per inicialitzar totes les tasques automatitzades i programades dins de l'arxiu de configuració</p> 
             </div>
           </div>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <footer class="container">
-            <p class="float-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </section>
+        <footer class="container">
+            <p class="float-right"><a href="#">Torna al principi</a></p>
+            <p>Eines HTML i CSS - PAC1</p>
           </footer>
       </div>
+      
       </main>
 </body>
 </html>
