@@ -25,13 +25,19 @@ body{ height: 100%; font-size: 1.2rem;line-height:1.8rem}
     width: auto;
     height: 250px;
 }
+
+.card:hover{
+  border-color:red;
+}
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-    
+@media (max-width: 576px) {
+  .main_title{font-size:2.5rem}
+  .card_second{padding-top: 15px}
+  
  }
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-    
+ 
  }
 
 /*Large devices (desktops, 992px and up)*/
