@@ -4,10 +4,13 @@
 html{ height: 100%; font-family: 'Roboto', sans-serif;font-size: 16px;}
 body{ height: 100%; font-size: 1.2rem;line-height:1.8rem}
 .mainmenu li a{text-transform: uppercase;}
-.active a{border-bottom: 3px solid red;}
+.active a{border-bottom: 3px solid #1f75af;}
 .breadcrumb{background-color: #ffffff;}
 
-  
+.header-img{height:33%; background-color: red;}
+#home{background: url(/assets/img/slider/slider3.png);background-size: cover;}  
+.titol{color:#ffffff}
+/*
   #wrap {
       min-height: 100%;}
   
@@ -28,7 +31,8 @@ body{ height: 100%; font-size: 1.2rem;line-height:1.8rem}
 
 .card:hover{
   border-color:red;
-}
+}*/
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
   .main_title{font-size:2.5rem}
