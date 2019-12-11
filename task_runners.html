@@ -22,39 +22,49 @@
 
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand"  href="/index.html"><img class="img-fluid img-thumbnail" width="35%" src="/assets/img/logotip.svg"  alt="logotip del web barnaBIT"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav ml-auto mainmenu">
-                <li class="nav-item ">
-                  <a class="nav-link" href="index.html">Inici</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="/task_runners.html">Runner tasks</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="ide.html">IDE</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
-      </header>
+    <header class="container-fluid" id="grad"> 
+        <section class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="/index.html"><img class="img-fluid" src="/assets/img/logotip.svg"  alt="logotip del web barnaBIT"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto mainmenu">
+                        <li class="nav-item">
+                            <a class="nav-link current" href="/index.html">Inici</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/task_runners.html">Runner tasks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ide.html">IDE</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>      
+        </section>
+    </header>
       <div class="jumbotron">
           <div class="container">
               <h1 class="display-4 main_title">Automatització de processos amb Task runners</h1>
             <p>Agilitza el processos de desenvolupament front-end per ser més ràpid i efectiu</p>
           </div>
       </div>
-      <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/index.html">Inici</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Task runners</li>
-          </ol>
-      </nav>
+
+      <section class="container">
+          <div class="row">
+              <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="/index.html">Inici</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Task runners</li>
+                  </ol>
+              </nav>
+          </div>
+      </section>
+
+
+
       <main role="main">
           <section id="wrap">    
           <div id="main" class="container clear-top">
