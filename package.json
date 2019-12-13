@@ -1,7 +1,7 @@
 {
-  "name": "einespac1",
+  "name": "einespac2",
   "version": "1.0.0",
-  "description": "PAC1 Eines HTML i Css",
+  "description": "PAC2 Eines HTML i Css",
   "main": "index.js",
   "scripts": {
     "dev": "npm-run-all clean parcel:dev",
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jofuentesl/einesPAC1.git"
+    "url": "git+ssh://git@github.com/jofuentesl/einesPAC2.git"
   },
   "keywords": [
-    "PAC1",
+    "PAC2",
     "UOC",
     "Eines",
     "HTML",
@@ -25,9 +25,9 @@
   "author": "Jordi Fuentes Leiva",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jofuentesl/einesPAC1/issues"
+    "url": "https://github.com/jofuentesl/einesPAC2/issues"
   },
-  "homepage": "https://github.com/jofuentesl/einesPAC1#readme",
+  "homepage": "https://github.com/jofuentesl/einesPAC2#readme",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
     "autoprefixer": "^9.6.5",
