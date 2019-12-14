@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Desenvolupament d'una web PAC1</title>
+    <title>Desenvolupament d'una web PAC2</title>
+    <!--Importem favicon-->
+    <link rel='icon' href='favicon.ico' type='image/x-icon' sizes="32x32" />
 
     <!--Importem es arxius d'estils-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
@@ -49,12 +51,13 @@
             </nav>
         </section>
     </header>
-    <div class="jumbotron">
+    <section class="container-fluid header-img d-flex align-items-center" id="tasks">
         <div class="container">
-            <h1 class="display-4 main_title">Automatització de processos amb Task runners</h1>
-            <p>Agilitza el processos de desenvolupament front-end per ser més ràpid i efectiu</p>
+            <div class="row">
+                <h1 class="display-4 subtitol">#Automatització<br />de processos <br />amb Gulp</h1>
+            </div>
         </div>
-    </div>
+    </section>
     <section class="container">
         <div class="row">
             <nav aria-label="breadcrumb">
@@ -84,26 +87,35 @@
                         href="https://gulpjs.com" rel="nofollow" target="_blank">Gulp</a> </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-sm-6 card_first">
-                <div class="card card-block h-100">
-                    <img src="/assets/img/gulp.svg" class=" img-fluid pt-3 img-responsive" alt="Imatge logo de Gulp">
-                    <div class="card-body">
-                        <h3 class="card-title">Gulp</h3>
-                        <a class="btn_info" href="/gulp.html">Més informació</a>
+        <hr class="featurette-divider">
+        <div class="container">
+                <div class="row ">
+                    <div class="col-md-7 col-xs-12">
+                        <h2 class="featurette-heading"><span class="text-muted">Automatització de tasques amb Gulp.</span></h2>
+                        <a class="btn_info" href="gulp.html">Més informació</a>
+                    </div>
+                    <div class="col-md-5 col-xs-12 img-categories">
+                        <div class="row img-categories">
+                            <a href="gulp.html"><img src="/assets/img/task_runners/gulp.svg"  class="img-fluid" alt="Logotip Gulp"></a>
+                        </div>
+        
+                    </div>
+                </div>
+            
+                <hr class="featurette-divider">
+        
+            <div class="row featurette pb-4">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading"><span class="text-muted">Automatització de tasques amb Grunt.</span></h2>
+                    <a class="btn_info" href="grunt.html">Més informació</a>    
+                </div>
+                <div class="col-md-5 order-md-1 img-categories">
+                    <div class="row img-categories">
+                        <a href="grunt.html"><img src="/assets/img/task_runners/grunt.svg"  class="img-categories img-fluid" alt="Logotip Grunt"></a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 card_second">
-                <div class="card card-block h-100">
-                    <img src="/assets/img/grunt.svg" class="img-fluid pt-3 img-responsive" alt="Imatge logo de Grunt">
-                    <div class="card-body">
-                        <h3 class="card-title">Grunt</h3>
-                        <a class="btn_info" href="/gulp.html">Més informació</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+       </div>
     </section>
     <section class="container">
         <hr class="featurette-divider">
@@ -115,5 +127,4 @@
         <p>Jordi Fuentes Leiva</p>
     </div>
 </footer>
-
 </html>

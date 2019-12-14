@@ -6,17 +6,47 @@ body{ height: 100%; font-size: 1.2rem;line-height:1.8rem}
 .mainmenu li a{text-transform: uppercase;}
 .active a{border-bottom: 3px solid #1f75af;}
 .breadcrumb{background-color: #ffffff;}
-
 .header-img{height:50%;width: 100%;}
 #home{background: url(/assets/img/slider/slider3.png);background-size: cover;}  
-.titol{color:#ffffff; padding-left: 30px;}
+@keyframes titleHome {
+  0% {transform: scale(0.1);color:#1f75af;opacity: 0;}
+  90% {transform: scale(1.03);opacity: 1;}
+  100% {color: #fff;transform: scale(1);}}
 
+@-webkit-keyframes titleHome {
+  0% {transform: scale(0.1);color:#1f75af;opacity: 0;}
+  90% {transform: scale(1.03);opacity: 1;}
+  100% {color: #fff;transform: scale(1);}}
+
+@keyframes subTitle{
+0% {float: left; color: red;}
+100% {transform: scale(1); float:right;color: #ffffff;}
+}
+
+.titol{color:#ffffff; padding-left: 30px;font-weight: 700; animation: titleHome 3s ease-out; -webkit-animation: titleHome 3s ease-out}
+.subtitol{color:#ffffff; padding-left: 30px;font-weight: 700;}
+/*.subtitol{color:#ffffff; animation:  subTitle 5s linear 1s 3 alternate}*/
+
+
+
+.img-categories{display: flex; justify-content:center; align-items: center;}
 .btn_info{background-color: #1f75af;padding: 0.1rem 1rem .5rem 1rem;border: 0 solid #000000;border-width: 4px 0 4px 0;font-size: 1rem;font-weight: 700; color:#ffffff;text-decoration: none;}
 .btn_info:hover{text-decoration: none; color:#ffffff}
 
+/*tasks runners*/
+#tasks{
+background: url(/assets/img/task_runners/tasks_header.jpg); background-size:cover;
+background-image: url(/assets/img/task_runners/tasks_header.jpg);
+background-image: image-set(url(/assets/img/task_runners/tasks_header.jpg) 1x, url(/assets/img/task_runners/tasks_header2.jpg) 2x);}
+.card_float{display:flex; align-items: center;}
+.test{height:50%;width: 100%;background-color:#e9ecef;}
+.headers{display:flex; flex-direction: row; flex-wrap:nowrap; justify-content:space-between; align-items: center; }
 
 
-/*.content_home{height: 201%;display:flex; flex-direction: row;align-items: center;}*/
+
+
+
+
 
 /*.test1{ display: flex;
   align-items: center;
@@ -51,7 +81,7 @@ body{ height: 100%; font-size: 1.2rem;line-height:1.8rem}
   .titol{font-size:2.5rem}  
   .main_title{font-size:2.5rem}
   .card_second{padding-top: 15px}
-  
+  .img-categories{padding: 1.5rem 1rem;}
  }
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
