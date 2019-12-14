@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Desenvolupament d'una web PAC1</title>
+    <title>Desenvolupament d'una web PAC2</title>
+    <!--Importem favicon-->
+    <link rel='icon' href='favicon.ico' type='image/x-icon' sizes="32x32" />
 
     <!--Importem es arxius d'estils-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
@@ -18,38 +20,39 @@
     <script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
     <script src="node_modules/@fortawesome/fontawesome-free/js/regular.min.js"></script>
     <script src="node_modules/@fortawesome/fontawesome-free/js/solid.min.js"></script>
-    <script src="node_modules/lazyload/lazyload.min.js"></script>
-
+    
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-          <a class="navbar-brand" href="/index.html"><img class="img-fluid img-thumbnail" width="35%" src="/assets/img/logotip.svg"  alt="logotip del web barnaBIT"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto mainmenu">
-              <li class="nav-item">
-                <a class="nav-link current" href="/index.html">Inici</a>
-              </li>
-              <li class="nav-item  active">
-                <a class="nav-link" href="/task_runners.html">Tasks runners</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/ide.html">IDE</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+  <header class="container-fluid" id="grad"> 
+    <section class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="/index.html"><img class="img-fluid" src="/assets/img/logotip.svg"  alt="logotip del web barnaBIT"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto mainmenu">
+                    <li class="nav-item">
+                        <a class="nav-link current" href="/index.html">Inici</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/task_runners.html">Tasks runners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ide.html">IDE</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>      
+    </section>
+</header>
       <section class="container-fluid header-img">
         <div class="container headers">
             <div class="row">
                 <h1 class="display-4">#Automatització <br />de tasques amb Grunt</h1>
             </div>
             <div class="row">
-              <img src="/assets/img/task_runners/grunt.svg"
+              <img src="/assets/img/task_runners/grunt.svg">
             </div>
         </div>
       </section>

@@ -18,14 +18,13 @@ body{ height: 100%; font-size: 1.2rem;line-height:1.8rem}
   90% {transform: scale(1.03);opacity: 1;}
   100% {color: #fff;transform: scale(1);}}
 
-@keyframes subTitle{
-0% {float: left; color: red;}
-100% {transform: scale(1); float:right;color: #ffffff;}
+@keyframes scaleLogos{
+100% {transform: scale(1.2);}
 }
 
-.titol{color:#ffffff; padding-left: 30px;font-weight: 700; animation: titleHome 3s ease-out; -webkit-animation: titleHome 3s ease-out}
-.subtitol{color:#ffffff; padding-left: 30px;font-weight: 700;}
-/*.subtitol{color:#ffffff; animation:  subTitle 5s linear 1s 3 alternate}*/
+.titol{color:#ffffff; padding-left: 30px;font-weight: 700; animation: titleHome 3s ease-out; -webkit-animation: titleHome 3s ease-out;}
+.subtitol{color:#ffffff; float:right; padding-left: 30px;font-weight: 700; animation: titleHome 3s ease-out; -webkit-animation: titleHome 3s ease-out;}
+.logoshome:hover{ animation: scaleLogos 3s; -webkit-animation: scaleLogos 3s;}
 
 
 
@@ -34,55 +33,59 @@ body{ height: 100%; font-size: 1.2rem;line-height:1.8rem}
 .btn_info:hover{text-decoration: none; color:#ffffff}
 
 /*tasks runners*/
+
+
+  .img {
+    background-image: url(/assets/img/task_runners/tasks_header.jpg);background-size: cover ;
+    background-image: 
+      -webkit-image-set(
+        url(/assets/img/task_runners/tasks_header2.jpg) 1x,
+        url(/assets/img/task_runners/tasks_header.jpg) 2x,
+      );
+    background-image: 
+      image-set(
+        url(/assets/img/task_runners/tasks_header2.jpg) 1x,
+        url(/assets/img/task_runners/tasks_header.jpg) 2x,
+      );
+  }
+  .img-ides {
+    background-image: url(/assets/img/ide/ides_header.png);background-size: cover ;
+    background-image: 
+      -webkit-image-set(
+        url(/assets/img/ide/ides_header2.png) 1x,
+        url(//assets/img/ide/ides_header.png) 2x,
+      );
+    background-image: 
+      image-set(
+        url(/assets/img/ide/ides_header2.png) 1x,
+        url(/assets/img/ide/ides_header.png) 2x,
+      );
+  }
+
+/*
 #tasks{
-background: url(/assets/img/task_runners/tasks_header.jpg); background-size:cover;
-background-image: url(/assets/img/task_runners/tasks_header.jpg);
-background-image: image-set(url(/assets/img/task_runners/tasks_header.jpg) 1x, url(/assets/img/task_runners/tasks_header2.jpg) 2x);}
+background-image: image-set(url(/assets/img/task_runners/tasks_header.jpg) 1x, url(/assets/img/task_runners/tasks_header2.jpg) 2x);}*/
+.title_category{color:#ffffff; padding-left: 30px;font-weight: 700;}
+.img-category{width: 50%;}
+.img-category:hover{ animation: scaleLogos 3s; -webkit-animation:scaleLogos 3s; }
 .card_float{display:flex; align-items: center;}
 .test{height:50%;width: 100%;background-color:#e9ecef;}
 .headers{display:flex; flex-direction: row; flex-wrap:nowrap; justify-content:space-between; align-items: center; }
 
 
 
-
-
-
-
-/*.test1{ display: flex;
-  align-items: center;
-  justify-content: center;}
-/*
-  #wrap {
-      min-height: 100%;}
-  
-  #main {
-      overflow:auto;padding-bottom:150px;}
-  .footer {
-    position: relative;
-    margin-top: -150px;
-    height: 150px;
-    clear:both;
-    padding-top:20px;
-  } 
-  
-.img-responsive {
-    width: auto;
-    height: 250px;
-}
-
-.card:hover{
-  border-color:red;
-}*/
-
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
   .header-img{height:33%;width: 100%;}
   #home{background: url(/assets/img/slider/slider3.png);background-size: cover;}
-  .titol{font-size:2.5rem}  
+  .titol, .title_category{font-size:2.5rem}  
   .main_title{font-size:2.5rem}
   .card_second{padding-top: 15px}
-  .img-categories{padding: 1.5rem 1rem;}
+  .img-categories{padding: 1.5rem 1rem;text-align: center}
+  .btn_info_category{position: relative;}
+
  }
+ /*#tasks{background: url(/assets/img/task_runners/tasks_header.jpg); background-size:cover;}*/
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
  
