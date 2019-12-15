@@ -25,6 +25,12 @@ body{ height: 100%; font-size: 1.2rem;line-height:1.8rem}
 100% {transform: scale(1.2);}
 }
 
+@-webkit-keyframes scaleLogos{
+  100% {transform: scale(1.2);}
+  }
+@keyframes titleCategory{
+
+}  
 .titol{color:#ffffff; padding-left: 30px;font-weight: 700; animation: titleHome 3s ease-out; -webkit-animation: titleHome 3s ease-out;}
 .subtitol{color:#ffffff; float:right; padding-left: 30px;font-weight: 700; animation: titleHome 3s ease-out; -webkit-animation: titleHome 3s ease-out;}
 .logoshome:hover{ animation: scaleLogos 3s; -webkit-animation: scaleLogos 3s;}
@@ -35,9 +41,9 @@ body{ height: 100%; font-size: 1.2rem;line-height:1.8rem}
 .btn_info{background-color: #1f75af;padding: 0.1rem 1rem .5rem 1rem;border: 0 solid #000000;border-width: 4px 0 4px 0;font-size: 1rem;font-weight: 700; color:#ffffff;text-decoration: none;}
 .btn_info:hover{text-decoration: none; color:#ffffff}
 
+.title_category{background: linear-gradient(to right, #af591e 10%, #fff 50%, #1f75af 60%);background-size: auto auto;background-clip: border-box;background-size: 200% auto;color: #fff;background-clip: text;-webkit-background-clip: text;-webkit-text-fill-color: transparent;animation: textclip 3s linear infinite;display: inline-block;}
+@keyframes textclip {to {background-position: 200% center;}}
 /*tasks runners*/
-
-
   .img {
     background-image: url(/assets/img/task_runners/tasks_header.jpg);background-size: cover ;
     background-image: 
