@@ -66,12 +66,14 @@ body{ height: 100%; font-size: 1.2rem;line-height:1.8rem}
 #tasks{
 background-image: image-set(url(/assets/img/task_runners/tasks_header.jpg) 1x, url(/assets/img/task_runners/tasks_header2.jpg) 2x);}*/
 .title_category{color:#ffffff; padding-left: 30px;font-weight: 700;}
-.img-category{width: 50%;}
+.img-category{width: 50%;height: auto;}
 .img-category:hover{ animation: scaleLogos 3s; -webkit-animation:scaleLogos 3s; }
-.card_float{display:flex; align-items: center;}
+
 .test{height:50%;width: 100%;background-color:#e9ecef;}
 .headers{display:flex; flex-direction: row; flex-wrap:nowrap; justify-content:space-between; align-items: center; }
 
+/*ide*/
+.vsc-svg{width: 100%;}
 
 
 /*Small devices (landscape phones, 576px and up)*/
