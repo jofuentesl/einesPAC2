@@ -52,9 +52,9 @@
           <div class="row">
               <h1 class="display-4">#Automatització <br />de tasques amb Gulp</h1>
           </div>
-          <div class="row">
-            <img src="/assets/img/task_runners/gulp.svg"
-          </div>
+          <div class="row logo_header">
+            <img src="/assets/img/task_runners/gulp.svg">
+        </div>
       </div>
   </section>
       <section class="container">
@@ -69,10 +69,8 @@
           </div>
       </section>
 
-
-      
-          <section id="wrap">    
-              <div id="main" class="container clear-top">
+    <section id="wrap">    
+      <div id="main" class="container clear-top">
           <div class="row">
               <div class="col">
                 <h1 class="display-4 main_title">Task runner GULP</h1>
@@ -114,8 +112,12 @@
                   </pre>
                 </figure>
                 <p>Amb aquesta ordre creem l'arxiu package-lock.json on indiquem les dependències necessàries i s'instal·la la carpeta node_modules.</p>
-                <figure class="figure">
-                    <img src="/assets/img/instalacion_gulp.png" data-src="/assets/img/instalacion_gulp.png" class="lazyload figure-img img-fluid rounded" alt="Imatge de la instal·lació de Gulp">
+                <figure class="figure img-class">
+                    <img srcset=" 
+                    /assets/img/task_runners/instalacion_gulpx3.png 3019w, 
+                    /assets/img/task_runners/instalacion_gulpx2.png 2013w, 
+                    /assets/img/task_runners/instalacion_gulpx1.png 1006w" 
+                    src="/assets/img/task_runners/instalacion_gulp.png" class=" figure-img img-fluid rounded" alt="Imatge de la instal·lació de Gulp">
                     <figcaption class="figure-caption text-right">Instal·lació de Gulp de forma local</figcaption>
                 </figure>
                 <p>Per la instal·lació de cada mòdul i incloure'ls en les dependències de l'arxiu package-lock.json, executarem la següent instrucció</p>
@@ -127,8 +129,12 @@
                     </pre>
                   </figure>
                   <p>El següent pas, consisteix en la creació de l'arxiu gulpfile.js on configurem com volem utilitzar el mòduls instal·lats prèviament</p>  
-                  <figure class="figure">
-                      <img src="/assets/img/ejecucion_gulp.png"  data-src="/assets/img/ejecucion_gulp.png" class="lazyload figure-img img-fluid rounded" alt="Execució de Gulpfile.js">
+                  <figure class="figure img-class">
+                      <img srcset="
+                      /assets/img/task_runners/ejecucion_gulpx3.png 3019w, 
+                      /assets/img/task_runners/ejecucion_gulpx2.png 2013w, 
+                      /assets/img/task_runners/ejecucion_gulpx1.png 1006w" 
+                      src="/assets/img/task_runners/ejecucion_gulp.png"  class="figure-img img-fluid rounded" alt="Execució de Gulpfile.js">
                       <figcaption class="figure-caption text-right">Execució de l'arxiu gilpfile.js</figcaption>
                   </figure>
                   <p>Últim pas consiteix en executar la instrucció Gulp dins del terminal de l'equip per inicialitzar totes les tasques automatitzades i programades dins de l'arxiu de configuració</p> 
@@ -146,4 +152,4 @@
           <p>Jordi Fuentes Leiva</p>
       </div>    
   </footer>
-  </html>
+</html>

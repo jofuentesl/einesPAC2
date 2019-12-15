@@ -46,24 +46,27 @@
         </nav>      
     </section>
 </header>
-      <section class="container-fluid header-img">
+      <section class="container-fluid header-img test">
         <div class="container headers">
             <div class="row">
                 <h1 class="display-4">#Automatització <br />de tasques amb Grunt</h1>
             </div>
-            <div class="row">
+            <div class="row logo_header">
               <img src="/assets/img/task_runners/grunt.svg">
             </div>
         </div>
       </section>
-      <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/index.html">Inici</a></li>
-            <li class="breadcrumb-item"><a href="/task_runners.html">Task Runner</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Grunt</li>
-          </ol>
-      </nav>
-      <main role="main">
+      <section class="container">
+          <div class="row">
+              <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="/index.html">Inici</a></li>
+                      <li class="breadcrumb-item"><a href="/task_runners.html">Task Runner</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Grunt</li>
+                  </ol>
+              </nav>
+          </div>
+      </section>
         <section id="wrap">    
           <div id="main" class="container clear-top">
           <div class="row">
@@ -106,7 +109,11 @@
                 </figure>
                 <p>A partir  d'aquest punt ja podem instal·lar mòduls.</p>
                 <figure class="figure">
-                    <img class="figure-img img-fluid rounded lazyload" src="/assets/img/instalacion_grunt.png" alt="Imatge de la instal·lació de Grunt">
+                    <img srcset="
+                    /assets/img/task_runners/instalacion_gruntx3.png 3019w, 
+                    /assets/img/task_runners/instalacion_gruntx2.png 2013w, 
+                    /assets/img/task_runners/instalacion_gruntx1.png 1006w" 
+                    src="/assets/img/task_runners/instalacion_grunt.png" class="figure-img img-fluid rounded" alt="Imatge de la instal·lació de Grunt">
                     <figcaption class="figure-caption text-right">Instal·lació de Grunt de forma local</figcaption>
                 </figure>
                 <p>Creem un arxiu anomenat gruntfile.js que ens servirà com arxiu de configuració del programari per indicar les diferents tasques que volem automatitzar. Només ens caldrà executar la instrucció Grunta al terminal per inicialitzar l'automatització de tasques</p>
@@ -118,7 +125,11 @@
                     </pre>
                   </figure>
                   <figure class="figure">
-                      <img src="/assets/img/ejecucion_grunt.png" class="figure-img img-fluid rounded lazyload" alt="Execució de Gruntfile.js">
+                      <img srcset="
+                      /assets/img/task_runners/ejecucion_gruntx3.png 3019w, 
+                      /assets/img/task_runners/ejecucion_gruntx2.png 2013w, 
+                      /assets/img/task_runners/ejecucion_gruntx1.png 1006w"  
+                      src="/assets/img/task_runners/ejecucion_grunt.png" class="figure-img img-fluid rounded" alt="Execució de Gruntfile.js">
                       <figcaption class="figure-caption text-right">Execució de l'arxiu gruntfile.js</figcaption>
                   </figure>
             </div>
@@ -129,7 +140,5 @@
               <p>Eines HTML i CSS - PAC1</p>
             </footer>
         </div>
-      
-    </main>
 </body>
 </html>
